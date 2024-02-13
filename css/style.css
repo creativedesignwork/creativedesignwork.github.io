@@ -21,8 +21,8 @@ header{
     height: 60px;
     top: 0;
     left: 0;
-    background-color:  rgba(0, 0, 0,1);
-    border-bottom: 5px solid red;
+    background-color:  rgba(99, 163, 139, 0.678);
+    border-bottom: 5px solid rgba(255, 255, 255, 0.692);
     z-index: 100;
     
     
@@ -31,10 +31,10 @@ header{
     display: flex;
     flex-direction: row;
     width: fit-content;
-    
+    font-weight: bolder;
     height: 30px;
     width: auto;
-    color:goldenrod;
+    color:rgb(243, 248, 246);
     gap:10px;
     justify-content: center;
     align-items: center;
@@ -52,7 +52,8 @@ nav a {
     font-size: 14px;
     display: inline;
     vertical-align: middle;
-    color: aliceblue;
+    font-weight:bold ;
+    color: rgb(248, 250, 249);
      
 }
 .mobile-menu{
@@ -413,7 +414,7 @@ header a.dropbtn{
     display:flex;
     align-items:center;
     justify-content: flex-start;
-    background-image: url(https://nerariyan.com/wp-content/uploads/2022/02/photography.jpg);
+    background-image: url(/image/banner.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position-y: center;
@@ -421,7 +422,7 @@ header a.dropbtn{
     transition: all ease-in 0.93s;
 }
 .banner>div{
-    padding:20px 100px;
+    padding:20px 50px;
 }
 .banner h1{
     margin-bottom: 5px;
@@ -445,16 +446,90 @@ header a.dropbtn{
 .content{
     /*min-height: 100vh; */
     padding: 6rem 10rem;
+    background-color: beige;
+    background: linear-gradient(218deg, rgb(41, 177, 159), rgba(154, 224, 213, 0.81));
     height:auto;
     width: 100%;
-    background-color: beige;
     display:flex;
     flex-direction: column;
-    align-items:center;
     justify-content:center;
-    background: linear-gradient(218deg, rgba(195,195,243,1), rgba(255,188,188,0.81));
+    
    /* transition: all ease-in 2.93s; */
 }
+.content-data{
+  /*min-height: 100vh; */
+  
+  height:auto;
+  width: 100%;
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content:center;
+  
+}
+.content-data p{
+
+  padding: 0 25px;
+  height:auto;
+  width: 100%;
+  justify-content: end;
+  line-height: 1.5;
+  text-align: justify;
+}
+.content-data ul{
+  padding: 0 20px;
+  list-style-position: outside;
+  text-align: left;
+  
+}
+
+.content h1{
+  text-align: center;
+}
+.profile{
+  /*min-height: 100vh; */
+  padding: 0 10px;
+  height:auto;
+  width: auto;
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content:center;
+  border-style: double;
+  border-color: #1c1c1c;
+
+}
+.profile-content{
+      /*min-height: 100vh; */
+      padding: 0 10px;
+      height:auto;
+      width: auto;
+      display:flex;
+      flex-direction: row;
+      align-items:center;
+      justify-content:center;
+
+  }
+  
+
+.profile-content p{
+
+  padding:0 25px;
+  height:auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  line-height: 1.5;
+  text-align: justify;
+}
+span {
+
+  font-size: 700%;
+  
+  line-height: 80%;
+}
+
 .content-product{
     /*min-height: 100vh; */
     padding: 6rem 0rem 0rem 0rem;
@@ -471,24 +546,7 @@ header a.dropbtn{
 .content-product h1{
     text-transform: uppercase;
 }
-.content-data{
-    /*min-height: 100vh; */
-    
-    height:auto;
-    width: 100%;
-    display:flex;
-    flex-direction: row;
-    align-items:center;
-    justify-content:center;
-    
-}
-.content-data p{
-    padding:0 25px;
-    
-    justify-content: end;
-    line-height: 1.5;
-    text-align: justify;
-}
+
 .image-box{
     /*min-height: 100vh; */
     
@@ -522,7 +580,7 @@ header a.dropbtn{
 
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
-    background-color:plum;
+    background-color:rgb(64, 139, 127);
     color: black;
     cursor: pointer;
     padding: 18px;
@@ -531,12 +589,12 @@ header a.dropbtn{
     text-align: left;
     outline: none;
     font-size: 15px;
-    border-bottom:5px solid rgb(255, 0, 255);
+    border-bottom:5px solid rgb(130, 223, 203);
   }
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
   .active, .collapsible:hover {
-    background-color: rgb(220, 190, 220);
+    background-color: rgb(190, 220, 215);
   }
   
   /* Style the collapsible content. Note: hidden by default */
@@ -545,8 +603,8 @@ header a.dropbtn{
     display: none;
     overflow: hidden;
     width:100%;
-    background-color: rgb(136, 52, 136);
-    color: rgb(243, 212, 243);
+    background-color: rgb(52, 136, 111);
+    color: rgb(212, 243, 236);
     line-height: 2;
   }
   .collapsible-content li{
@@ -559,6 +617,7 @@ header a.dropbtn{
     font-size: 13px;
     float: right;
     margin-left: 5px;
+    
   }
   
   .active:after {
@@ -567,8 +626,7 @@ header a.dropbtn{
   
 
 .content:hover{
-    background: 
-	linear-gradient(180deg, rgba(195,195,243,1), rgba(255,188,188,0.81));
+    background: linear-gradient(180deg, rgb(155, 240, 218), rgba(83, 212, 184, 0.81));
     transition: all ease-in 2.93s;
     cursor: pointer;
 } 
@@ -577,13 +635,13 @@ header a.dropbtn{
     padding: 25px 25px;
     height:auto;
     width: 100%;
-    background-color: beige;
+    background-color: rgb(220, 245, 233);
     display:flex;
     flex-direction: column;
     align-items:center;
     justify-content:center;
     background: 
-	linear-gradient(218deg, rgba(195,195,243,1), rgba(255,188,188,0.81));
+	linear-gradient(218deg, rgb(195, 243, 237), rgba(142, 211, 182, 0.81));
    /* transition: all ease-in 2.93s; */
 }
 .contact-data{
@@ -739,7 +797,7 @@ header a.dropbtn{
   }
 
 footer{
-    background-color: rgb(207, 157, 255);
+    background-color: rgb(106, 189, 178);
     color:aliceblue;
     min-height: auto;
     padding: 20px 0;
@@ -866,6 +924,31 @@ footer h5{
 .review-write{
     margin-left: 20px;
 }
+
+.scroll-container {
+
+  overflow: auto;
+  white-space:nowrap; /*nowrap; */
+  padding: 10px;
+  text-align: center;
+  scroll-behavior: smooth;
+ 
+}
+
+
+.scroll-container iframe {
+  padding: 10px;
+}
+.scroll-container img {
+  padding: 10px;
+}
+
+
+
+
+
+
+
 
 
  
@@ -1028,14 +1111,14 @@ footer h5{
         margin-left: 20px;
     }
 .menu-icon i{
-    color:goldenrod;
+    color:rgb(255, 255, 255);
     font-size: 20px;
     padding: 10px;
 }
 /* Dropdown Button */
 .dropdown button {
   background-color: transparent;
-  color: goldenrod;
+  color: rgb(255, 255, 255);
   padding: 13px;
   font-size: 16px;
   border: none;
@@ -1154,12 +1237,18 @@ footer h5{
 
 .content{
     
-    padding: 70px 0px;
+    padding: 70px 10px;
     overflow-y:hidden;
     height:auto;
     width:100%;
     overflow-x: hidden;
 }
+.content:hover{
+  background: linear-gradient(180deg, rgb(155, 240, 218), rgba(83, 212, 184, 0.81));
+  transition: all ease-in 2.93s;
+  cursor: pointer;
+}
+
 .content-product h1{
     font-size: 20px;
 }
@@ -1172,6 +1261,38 @@ footer h5{
     width:100%;
     min-height:auto;
 }
+.profile{
+  display:flex;
+  flex-direction: column;  
+  padding: 70px 0px;
+  overflow-y:hidden;
+  height:auto;
+  width:100%;
+  overflow-x: hidden;
+  text-align: center;
+  align-content:end;
+}
+.profile p{
+  padding: 0 20px;
+  
+}
+span {
+
+  font-size: 700%;
+  line-height: 60%;
+  
+}
+
+.profile-content{
+  display:flex;
+  flex-direction: column;
+  padding: 0px 0px;
+  height:auto;
+  width:100%;
+  min-height:auto;
+  text-align: center;
+}
+
 .image-box{
     /*min-height: 100vh; */
     
@@ -1262,12 +1383,33 @@ footer h5{
 .footer-box{
     display:flex;
     flex-direction: column;
-    padding: 25px 25px;
+    padding: 0px 0px;
     min-height:auto;
     width:100%;
 }
-.contact{
-    padding: 0 25px;
+.footer-contact{
+  display:flex;
+  flex-direction: column;
+  padding: 0px 10px;
+  height:auto;
+  width:100%;
+  min-height:auto;
+}
+.footer-link{
+  display:flex;
+  flex-direction: column;
+  padding: 0px 10px;
+  height:auto;
+  width:100%;
+  min-height:auto;
+}
+.footer-social{
+  display:flex;
+  flex-direction: column;
+  padding: 0px 10px;
+  height:auto;
+  width:100%;
+  min-height:auto;
 }
 .contact-data{
     display:flex;
@@ -1279,7 +1421,64 @@ footer h5{
 }
 iframe{
     
-    width: auto;
-    padding:0;
+    width: 100%;
+    height: auto;
 }
+}
+
+
+
+
+/* Three columns side by side */
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.container a {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.container a:hover {
+  background-color: #555;
 }

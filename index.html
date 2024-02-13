@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Golden Dreams</title>
-    <link rel="icon" type="image/x-icon" href="/image/goldend.ico">
+    <title>Reality Laser Clinic</title>
+    <link rel="icon" type="image/x-icon" href="/image/logo.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
@@ -15,245 +15,370 @@
 <body>
     <header>
         <div class="logo">
-            <a href="index.html"><img class="logo" src="/image/goldend.ico" alt="logo"></a>
-            <p>GOLDEN DREAMS</p>
+          <a href="index.html"><img class="logo" src="/image/logo.ico" alt="logo"></a><p>REALITY LASER CLINIC</p>
         </div>
         
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="services.html">Services</a>
-            <a href="package.html">Package</a>
-            <a href="contact.html">Contact us</a>
+            <a href="#ba2">About Us</a>
+            <a href="#ba3">Innovative</a>
+            <a href="#ba4">Service</a>
+            <a href="#ba5">Contact Us</a>
         
         </nav>
+
+        
         <div class="mobile-menu">
             <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn">search</button>
-                <div id="myDropdown" class="dropdown-content">
+              <button onclick="myFunction()" class="dropbtn">search</button>
+              <div id="myDropdown" class="dropdown-content">
                     <a href="#ba2">About Us</a>
-                    <a href="#ba3">Photography</a>
-                    <a href="#ba4">Candid</a>
-                    <a href="#ba5">Shooting</a>
-                    <a href="#ba6">Reviews</a>
+                    <a href="#ba3">Innovative</a>
+                    <a href="#ba4">Service</a>
+                    <a href="#ba5">Contact Us</a>
                 </div>
               </div>
-        <div class="dropdown">
-            <!-- Trigger/Open The Modal -->
-<button id="myBtn" class="menu-icon "><i class="fa fa-bars"></i> </button>
 
-<!-- The Modal -->
-<div id="myModal" class="modal">
 
-  <!-- Modal content -->
-  <div class="modal-content">
-  <div class="modal-header">
-    <span class="close">&times;</span>
-    <h2>Menu</h2>
-  </div>
-  <div class="modal-body">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="services.html">Services</a></li>
-    <li><a href="package.html">Package</a></li>
-    <li><a href="contact.html">Contact us</a></li>
-    
-  </div>
-  
-</div>
-
-</div>
-        </div>
+              <div class="dropdown">
+                <!-- Trigger/Open The Modal -->
+    <button id="myBtn" class="menu-icon"></button>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h2>Menu</h2>
+      </div>
+      <div class="modal-body">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="package.html">Package</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+      </div>
     </div>
+    </div>
+   
+            </div>
+        </div>
     </header>
+<!--
     <div class="search">
         <ul>
-            <li><a href="#ba2">About Us</a></li>
-            <li><a href="#ba3">Photography</a></li>
-            <li><a href="#ba4">Candid</a></li>
-            <li><a href="#ba5">Shooting</a></li>
-            <li><a href="#ba6">Reviews</a></li>
+            <a href="#ba2">Product Details</a>
+            <a href="#ba3">Traditional Photography</a>
+            <a href="#ba4">Traditional DSLR Videography</a>
+            <a href="#ba5">Candid Photography</a>
         </ul>
     </div>
-    
+    -->
     <main>
         <section>
-            
-            <div id="container_slider">
-	
-
-                <input type="radio" id="i1" name="images" checked/>
-                <input type="radio" id="i2" name="images" />
-                <input type="radio" id="i3" name="images" />
-                <input type="radio" id="i4" name="images"  />
-                
-                <div class="slide_img" id="one">			
-                        
-                        <img src="https://images.unsplash.com/photo-1631621583126-ed10a80f62b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHJlJTIwd2VkZGluZ3xlbnwwfHwwfHw%3D&w=1000&q=80" alt="image1">
-                        <div class="slider-text"><h1>OUTDOOR SHOOT</h1></div>
-                            <label class="prev" for="i4"><span></span></label> <!-- for ="ultima img, in tal caso la 4"  --->
-                            <label class="next" for="i2"><span></span></label>	<!-- for ="la successiva alla prima  --->
-                    
-                </div>
-                
-                <div class="slide_img" id="two"> 
-                    
-                        <img src="https://images8.alphacoders.com/107/1074276.jpg" alt="image2" >
-                        <div class="slider-text"><h1>BIRTHDAY CELEBERATION</h1></div>
-                            <label class="prev" for="i1"><span></span></label>
-                            <label class="next" for="i3"><span></span></label>
-                    
-                </div>
-                        
-                <div class="slide_img" id="three">
-                        <img src="https://images.hindustantimes.com/img/2021/04/26/1600x900/Sugandha-Mishra-Mehendi_007_1619414718101_1619414726938.jpeg" alt="image3" >	
-                        <div class="slider-text"><h1>CANDID</h1></div>
-                            <label class="prev" for="i2"><span></span></label>
-                            <label class="next" for="i4"><span></span></label>
-                </div>
-            
-            
-                <div class="slide_img" id="four">
-                        <img src="https://www.shutterstock.com/image-photo/happy-bride-groom-on-pre-260nw-1573734331.jpg" alt="image4" >	
-                        <div class="slider-text"><h1>MARRRIAGE</h1></div>
-                            <label class="prev" for="i3"><span></span></label>
-                            <label class="next" for="i1"><span></span></label>
-            
-                </div>
-            
-                <div id="nav_slide">
-                    <label for="i1" class="dots" id="dot1"></label>
-                    <label for="i2" class="dots" id="dot2"></label>
-                    <label for="i3" class="dots" id="dot3"></label>
-                    <label for="i4" class="dots" id="dot4"></label>
-                </div>
-                    
-            </div>
-            
-            
-            
-
-            
-           <!-- <div id="ba1" class="banner">
-                <div>
-                <h1>Golden Dreams</h1>
-                <h5>Photography</h5>
-            
-                </div> -->
+            <div id="ba1" class="banner">
+                <div><h1>Reality Laser</h1>
+                     <h5>Clinic</h5></div>
+               
             </div>
             <div id="ba2" class="content">
-                <h2>About Us</h2>
+                <h1>About Us</h1>
                 <div class="content-data">
-                    <div><p>I have been working as a Photographer for more than 10 years. 
-                        I quickly fell in love with a photo assignment and instantly decided I needed to move. 
-                        I live near Nazareth with my son and wife. Outside of photography, 
-                        I spend my time in Editing Album, working on my Team, practicing choir song, 
-                        Trucking and capturing the natural senaries.</p>
+                    <div><p>We offer a variety of specialized services which can respond to your needs and 
+                        return you to what you like doing as soon as possible. 
+                        We treat the whole family from new-born babies to seniors at our clinic.</p>
+                        <p>At reality Acupuncture Physiotherapy Laser Clinic every individual's physical 
+                            health and conditions are determined to find the root cause of the disease. 
+                            We take utmost care in diagnosing you in detail. Our doctors will determine 
+                            your health condition and decide what treatment methodologies suits you most.</p>
                     </div>
-                    <div><img src="https://img1.wsimg.com/isteam/ip/0515faad-0f15-4974-a760-5c389cb477f7/Golden%20Dreams%20logo.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1160,h:725" width="100%" height="auto"> 
+                    <div><img src="/image/AboutUs.jpg" width="350px%" height="auto"> 
                     </div>
-
                 </div>
-            </div>
+
+                    <div class="profile">
+                        <div class="profile-content"><p>
+                            <span>25</span>
+                        <br>Year Experience</br>
+                        </p></div>
+                        <div class="profile-content"><img src="/image/dr.png" width="100px" height="auto"></div>
+                        <div class="profile-content">
+                            <p><b>Dr. A. Abdul Cader </b>
+                            Ph.D(Arthritis),
+                            Fellowship in Neuro Physiotherapy,
+                            N.T.(Naturopathy) (Spinal)Dorn Therapy,
+                            M.D.(Acupuncture) Laser Therapy in Asia</p>
+                            </div>
+                            <div class="profile-content">
+                                <p><b>Previous Worked Place: </b> Hospital, Apollo Hospital, 
+                                YMCA(Chennai) NIMHANS(Banglore), King Hospital Saudi Arabia, 
+                                Shifa and Royal Children Hospital.</p></div>
+                    </div>
+                    <div class="profile">
+                        <p>
+                            With years of experience, our medical team will assess you and 
+                            create a custom recovery plan that's right for you. We understand 
+                            the importance of educating you on the most effective ways to take 
+                            care of your body, so that you can heal quickly.
+                        </p>
+                    </div></div>
+
+
+                
+
+                
             <div id="ba3" class="content">
-                <h2>Photography</h2>
+                <h1>Innovative & Integrative Treatments Offered</h1>
                 <div class="content-data">
-                    <div><p>A lot of photographers like to keep their secrets “close to the vest.” 
-                        They might stay vague, only cover the “why” of doing something, or gloss over the key steps hastily.
-
-                        <br>Because of this tendency, you might struggle to track down the best tips and techniques.</br>
-                        
-                        <br>Talk about how you set up your tools, what manual photo editor you use, and other things you think people 
-                        can learn from. You can also suggest for your readers to share what knowledge they have. Maybe even start 
-                        a community right there on your own website if you think you can take it on!</br> </p>
+                    <div><p>At reality Acupuncture Physiotherapy Laser Clinic you get the best 
+                        physiotherapy treatment along with </p>
+                        <ul>•	Acupuncture</ul>
+                        <ul>•	laser</ul>
+                        <ul>•	Ayurvedic</ul>
+                        <ul>•	Naturopathy</ul>
                     </div>
-                    <div><img src="https://wallpapers.com/images/featured/photographer-jrz8wy1qfbx8j0oo.jpg" width="100%" height="auto"> 
+                    <div><img src="/image/idea.jpg" width="350px%" height="auto"> 
                     </div>
-
                 </div>
+                
+                <button type="button" class="collapsible"><b>Treatment Details</b></button>
+                <div class="collapsible-content">
+                    <p>Our physiotherapist employ many therapeutic tools to enable your 
+                        recovery from a wide variety of physical conditions.</p>
+                        <br>Your physiotherapist will choose treatment modalities according 
+                        to your needs and goals. An initial assessment will help us to analyse 
+                        your problem and underlying causes. We will then design a treatment plan 
+                        together.</br>
+                        <br>we are highly trained in manual therapy and  also highly skilled in 
+                        treatment approaches such as exercise rehabilitation, biomechanical and 
+                        postural correction, gait training, and other modalities such as taping, 
+                        Laser and electrotherapy. </br>
+                        <br>During your session, we will listen to your story, explain to you the 
+                        diagnosis and what is wrong and not wrong and give you advice to take home. 
+                        We encourage you to provide us with your feedback to maximize results. </br>
+                </div>
+                
+                <h1>Our Innovative & Unique Treatment Methods</h1>
+                <ul>•	You don’t need to do the boring same exercises daily.</ul>
+                <ul>•	No need to do the exercises at home.</ul>
+                <ul>•	Your muscles will deform if you do the same passive movements, 
+                    Assisted, resisted, Co-ordination, and Active Exercises daily for a long time.</ul>
+                <ul>•	You can get cured up to <b>90% - 100%</b> by using nerve impulse method 
+                    (Bio-Mechanics & Bio-Photo Modulation therapy).</ul>
+                <ul>•	We have so many records of recovered patients.</ul>
+                <ul>•	<b>Parkinson / Alzheimer’s / ADD / ADHD / TBI / CONCUSSION and MOOD DISORDERS can also be treated.</b></ul>
+            
             </div>
+
+            
+
+            <div class="content">
+                <h1>Patient Experience</h1>
+            <div class="scroll-container">
+
+                
+               
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/OxG-tE59VPo?si=AbKFITOKvr8S3JLL" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+                encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/fv_qOkuf_QA?si=TDbDAVO8rifMZF3l" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+                gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              
+
+                <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/VbaI8lv6VIo" title="Reality Physio,Acupuncture &amp; 
+                Laser Clinic - 9489940778" frameborder="0" allow="accelerometer; autoplay; 
+                clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen></iframe>
+                
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Oy5cOH8ZPmQ?si=ybn2YqwXcaZnra8S" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+                encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+               <!-- <img src="/image/patient1.jpg" width="360px" height="auto" alt="Stroke">
+
+                <img src="/image/patient2.jpg" width="560" height="315" alt="cp child"> -->
+            
+            </div>
+            </div>
+
             <div id="ba4" class="content">
-                <h2>Candid</h2>
+                <h1>Service</h1>
                 <div class="content-data">
-                    <div><p>People are unpredictable, and you only get one chance when taking candid photography. 
-                        Take lots of shots. Your camera, whether Nikon or Canon digital cameras are able to take great photos.
-                        <br>
-                        You’ll be surprised at what you find. I often end up with something fun and spontaneous. 
-                        And shooting in burst mode increases the chance of capturing that perfect shot.</br>
+                    <div><b>We offer a wide range of specialist Services: </b>
+                        <p>Physiotherapy, Stroke Rehabilitation, a Sports injuries, 
+                        Childrens Physiotherapy, Womens health, Laser, Acupuncture, 
+                        Knee Pain, Back Pain, Shoulder Pain, Neck Pain,…etc.</p>
+                        <ul>•	<a herf="#sh1"><b>Neurological Physiotherapy</b></a></ul>
+                        <ul>•	<a herf="#sh2"><b>Stroke</b></a></ul>
+                        <ul>•	<a herf="#sh3"><b>Coma</b></a></ul>
                         
-                        <br>Family moments can be the best time for candid photos. You can find great tips for those moments here. 
-                        For more candid photography tips, you need to read on.</br> </p>
                     </div>
-                    <div><img src="https://cdn0.weddingwire.in/article/5657/original/1280/jpg/17565-candid-photography-plush-affairs-mehndi.jpeg" width="100%" height="auto"> 
+                    <div><img src="/image/Service.png" width="350px%" height="auto"> 
                     </div>
+                </div>
+                
+            </div>
 
-                </div>
-            </div>
-            <div id="ba5" class="content">
-                <h2>Shooting</h2>
+            <div id="sh1" class="content">
+                <h2>Neurological Physiotherapy</h2>
                 <div class="content-data">
-                    <div><p>Imagine having a grand pre-wedding photoshoot at a royal palatial palace, 
-                        which would not only offer you beautiful photos but wonderful memories to cherish for life. 
-                        You can get creative with the architecture and get clicked extravagantly.
-                        <br>
-                        The glass windows, the golden tinge with peacock and elephant murals on the wall and mirrored walls 
-                        make the couple look like a king and a queen of The World. Don’t forget to notice the coordinated colour 
-                        of their outfits and the bridal jewellery because that’s a very important aspect to remember for pre-wedding shoots. </br>
-                        
-                        <br>Just shoot literally anything outside of a house, classroom, or apartment. 
-                        If possible, make these shots prettier than your indoor ones, so that your foray 
-                        outside of the main location has the most impact, but honestly, just the act of filming 
-                        in an inherently more interesting place will give your production value a bump.</br> </p>
+                    <div>
+                        <ul>•	Each body is different, then treatment to each body must be different.</ul>
+                        <ul>•	We first identify the physical nature of each patient and give innovative 
+                                treatments accordingly.</ul>
+                        <ul>•	Nerve Dysfunction, hand and leg deformities can be treated.</ul>
+                        <ul>•	Even stroke patients can get back to their normal life, 
+                                it they treated within one month.</ul>
+                        <ul>•	We can cure the body cells by treating brain nerve cells using 
+                                integrative medicine like acupuncture and physiotherapy.</ul>
                     </div>
-                    <div><img src="https://images.unsplash.com/photo-1619099619226-f96e319e3732?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fG1vdmllJTIwc2hvb3Rpbmd8ZW58MHx8MHx8&w=1000&q=80" width="100%" height="auto"> 
+                    <div><img src="/image/brain.jpg" width="350px%" height="auto"> 
                     </div>
+                </div>
             </div>
+
+            <div id="sh2" class="content">
+                <h2>Stroke</h2>
+                <div class="content-data">
+                    <div>
+                        <ul>•	No <b>same, regular exercises</b> for stroke patients.</ul>
+                        <ul>•	Special <b>acupuncture and laser treatments were given to brain.</b></ul>
+                        <ul>•	By using nerve impulse method we have treated so many patients 
+                                who actually get back to their normal life <b>there is no side 
+                                effect</b> in it.</ul>
+                        <ul>•	Weekly once treatment is enough.</ul>
+                        <ul>•	Surely you can get back to your normal life.</ul>
+                        <ul>•	Can be transformed into a person without disability 
+                                by improving the <b>Muscle Grade from "0 to 5".</b></ul>
+                        <ul>•	Even if you have practiced the <b>old regular 
+                                exercises and didn’t get cured</b>, you can get 
+                                counselling from our doctor and can get cured.</ul>
+                        <ul>•	We have cured so many patients who is now doing 
+                                their daily chores by themselves.  </ul>
+                    </div>
+                    <div><img src="/image/stroke.jpg" width="450px%" height="auto"> 
+                    </div>
+                </div>
+            </div>
+
+            <div id="sh3" class="content">
+                <h2>Coma</h2>
+                <div class="content-data">
+                    <div>
+                        <p>Treating someone in a coma typically involves supportive care to maintain 
+                           their vital functions while addressing the underlying cause of the coma. </p>
+                        <ul>1.	Identifying and Treating Underlying Causes: The cause of the coma 
+                                needs to be determined and treated if possible. This could involve 
+                                addressing issues such as head trauma, stroke, infection, metabolic 
+                                disturbances, drug overdose, or other medical conditions.</ul>
+                        <ul>2.	Neurological Monitoring: Continuous monitoring of brain activity 
+                                and neurological status is crucial. This can involve EEG (electroencephalography) 
+                                to assess brain function, imaging studies like MRI or CT scans to identify 
+                                any structural issues, and regular neurological assessments by 
+                                healthcare professionals.</ul>
+                        <p>Treatment approaches can vary depending on the individual's condition, 
+                            the cause of the coma, and other factors. It's essential for the medical 
+                            team to provide personalized care tailored to the patient's needs.</p>
+                    </div>
+                    <div><img src="/image/Coma.jpg" width="450px%" height="auto"> 
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div id="ba5" class="content">
+                <h1>Contact Us</h1>
+                <h2>Branch</h2>
+            <div class="row">
+                <div class="column">
+                    <div class="card">
+                      <img src="/image/Drabdul.jpg" alt="Abdul Cader" style="width:100%">
+                      <div class="container">
+                        <h2>Dr. Abdul Cader</h2>
+                        <p class="title">Doctor &amp; Founder</p>
+                        <p>Address:Reality Laser Clinic</p> 
+                        <p>NGO B colony (Near EPFO Office), Tirunelveli, TamilNadu - 627 007, India</p>
+                        <p>Ph No.: +91 89036 00777</p>
+                        <p>example@example.com</p>
+                        <p><a class="call_tracked" href="tel:+91-89036-00777" data-tracking-element-type="3" 
+                          jslog="56037; track:impression,click" itemprop="telephone">Call now</a></p>
+                      </div>
+                    </div>
+                  </div>
+
+                <div class="column">
+                  <div class="card">
+                    <img src="/image/Tirunelveli.jpg" alt="Tirunelveli" style="width:100%">
+                    <div class="container">
+                      <h2>Tirunelveli</h2>
+                      <p class="title">Head Office &amp; Clinic</p>  <!--*&amp; Founder-->
+                      <p>Address:Reality Laser Clinic</p> 
+                      <p>NGO B colony (Near EPFO Office), Tirunelveli, TamilNadu - 627 007, India</p>
+                      <p>Ph No.: +91 94899 40778</p>
+                      <p>example@example.com</p>
+                      <p><a class="call_tracked" href="tel:+91-94899-40778" data-tracking-element-type="3" 
+                        jslog="56037; track:impression,click" itemprop="telephone">Call now</a></p>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="column">
+                  <div class="card">
+                    <img src="/image/Coimbatore.jpg" alt="Coimbatore" style="width:100%">
+                    <div class="container">
+                      <h2>Coimbatore</h2>
+                      <p class="title">Clinic</p>
+                      <p>Address:Reality Laser Clinic</p>
+                      <p>No.: 67,
+                        Church Road (Near Water Tank)
+                        Vesuvasapuram,
+                        Coimbatore - 641035</p>
+                        <p>Ph No.: +91 89036 00777</p>
+                      <p>example@example.com</p>
+                      <p><a class="call_tracked" href="tel:+91-89036-00777" data-tracking-element-type="3" 
+                        jslog="56037; track:impression,click" itemprop="telephone">Call now</a></p>
+                    </div>
+                  </div>
+                </div>
+              
+                
+              </div>
+              </div>
+ 
+
+
+
+
+
         </section>
-        
-        <div id="ba6" class="review">
-            <h1>Reviews</h1>
-            <div class="review-data">
-                <div><a href="https://local.google.com/place?id=14000938162812233219&use=srp&hl=en" target="_blank"> <img src="/image/google-icon.png" width="120px" height="120px"> </a>
-                </div>
-                <div>
-                    <h1>Golden Dreams</h1> <p>Photography</p>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star-half-full checked"></span>
-                    <div><a href="https://search.google.com/local/reviews?placeid=ChIJZfH41oOJAzsRAyaiNBRTTcI" target="_blank">14 Reviews</a>
-                    <a class="review-write" href="https://search.google.com/local/writereview?placeid=ChIJZfH41oOJAzsRAyaiNBRTTcI" target="_blank">Write Review</a>
-                </div>
-                </div>
-            </div>
-            <iframe src='https://widgets.sociablekit.com/google-reviews/iframe/124016' frameborder='0' width='100%' height='1000'></iframe>
-        </div>
     </main>
-    <footer><h2>Golden Dreams Photography</h2>
-        <section class="footer-box">
+    <footer><h2>Reality Laser Clinic</h2>
+        <div class="footer-box">
             
                 <div class="footer-contact">
-                    <h3>Contact Us</h3>
-                    <p>Address:Golden Dreams<br>First Market St, Nazareth, Thoothukudi, TamilNadu, India - 628617</br>
-                       Ph No.: +91 99761 49065</p>
-                    <address>Email: <a href="mailto:goldendreamsfsv@gmail.com">goldendreamsfsv@gmail.com </a></address>
+                    <h3>Head Office</h3>
+                    <p>Address:Reality Laser Clinic<br>NGO B colony (Near EPFO Office), Tirunelveli, TamilNadu - 627 007, India</br>
+                       Ph No.: +91 89036 00777</p>
+                       <address>Email: <a href="mailto:creativedesignswork2023@gmail.com">creativedesignswork2023@gmail.com </a></address>
                 </div>
                 <div class="footer-link">
-                    <li><a href="#container_slider"><img class="icon" src="https://cdn-icons-png.flaticon.com/128/9951/9951148.png" width="50px" height="50px"> </a></li>
-                    <li><a href="#container_slider">Back to Top</a></li>
+                    <li><a href="#ba1"><img class="icon" src="https://cdn-icons-png.flaticon.com/128/9951/9951148.png" width="50px" height="50px"> </a></li>
+                    <li><a href="#ba1">Back to Top</a></li>
                 </div>
                 <div class="footer-social">
                     <h3>Social Media</h3>
-                    <div><a href="https://www.facebook.com/" target="_blank"><img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1024px-Facebook_Logo_%282019%29.png" width="50px" height="50px" alt="icon"></a>
-                         <a href="https://www.instagram.com/" target="_blank" ><img class="icon" src="https://icon-library.com/images/instagram-circle-icon-png/instagram-circle-icon-png-18.jpg" width="50px" height="50px" alt="icon"></a>
-                         <a href="https://wa.me/+919976149065" target="_blank" ><img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/512px-WhatsApp.svg.png" width="50px" height="50px" alt="icon"></a>
-                         <a href="https://www.youtube.com/@goldendreams7261" target="_blank" ><img class="icon" src="https://www.freepnglogos.com/uploads/play-youtube-youtube-app-logo-youtube-logo-youtube--24.png" width="50px" height="50px" alt="icon"></a>
+                    <div><a href="https://www.facebook.com/profile.php?id=100089975732378/" target="_blank"><img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1024px-Facebook_Logo_%282019%29.png" width="50px" height="50px" alt="icon"></a>
+                         <a href="https://www.instagram.com/reality_acu_physio_laser/?hl=en" target="_blank" ><img class="icon" src="https://icon-library.com/images/instagram-circle-icon-png/instagram-circle-icon-png-18.jpg" width="50px" height="50px" alt="icon"></a>
+                         <a href="https://wa.me/+9189036 00777" target="_blank" ><img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/512px-WhatsApp.svg.png" width="50px" height="50px" alt="icon"></a>
+                         <a href="https://www.youtube.com/@realitylaserclinic6959" target="_blank" ><img class="icon" src="https://www.freepnglogos.com/uploads/play-youtube-youtube-app-logo-youtube-logo-youtube--24.png" width="50px" height="50px" alt="icon"></a>
                     </div>
                 </div>
-                </div>
+                
             
-        </section>
+            </div>
         <p><h5>Design and Developed by Creative Designs Work</h5></p>
     </footer>
     <script src="/js/custom.js" type="text/javascript"></script>
